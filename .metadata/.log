@@ -140,3 +140,9 @@ org.eclipse.core.runtime.CoreException:
 	at java.lang.Thread.run(Unknown Source)
 !SUBENTRY 2 unknown 8 1 2017-01-10 14:53:45.545
 !MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-10 15:49:07.937
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-10 15:49:07.942
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
