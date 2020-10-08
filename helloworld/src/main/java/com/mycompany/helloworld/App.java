@@ -11,6 +11,11 @@ public class App
         System.out.println( "Hello World! 张一博" );
         App test=new App();
         test.pupAge();
+        Fruit[] fruits = new Apple[10];
+        fruits[0] = new Apple();
+        fruits[1] = new Jonathan();
+        fruits[0] = new Fruit();
+        fruits[0] = new Orange();
     }
     public void pupAge()
     {
