@@ -27,6 +27,9 @@ public class App
         } catch (Exception e) {
             System.out.println(e);
         }
+        //协变
+        List<? extends Apple> appleList = new ArrayList<Jonathan>();
+        //appleList.add(new Jonathan());
         //逆变
         List<? super Fruit> fruitList = new ArrayList<Fruit>();
 
