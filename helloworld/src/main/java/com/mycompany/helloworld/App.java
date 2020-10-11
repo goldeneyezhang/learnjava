@@ -31,14 +31,12 @@ public class App
         List<? extends Apple> appleList = new ArrayList<Jonathan>();
         //appleList.add(new Jonathan());
         //逆变
-        List<? super Fruit> fruitList = new ArrayList<Fruit>();
-
-        fruitList.add(new Apple());
+        List<? super Fruit> fruitList = new ArrayList<Fruit>();       fruitList.add(new Apple());
 
         fruitList.add(new Jonathan());
 
         fruitList.add(new Fruit());
-
+        
 
     }
     public void pupAge()
